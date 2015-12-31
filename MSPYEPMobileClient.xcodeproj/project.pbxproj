@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D56EF98D8697817041F3641 /* libPods-MSPYEPMobileClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B91C7ABB132B7AE2B2624C /* libPods-MSPYEPMobileClientTests.a */; };
+		2A84891F605F56EEC33B483D /* libPods-MSPYEPMobileClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C715F3BB8F64596EA24D2785 /* libPods-MSPYEPMobileClient.a */; };
+		6F1024271AF2760200667D82 /* PQEventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1024261AF2760200667D82 /* PQEventListViewController.m */; };
+		6F10242A1AF2771400667D82 /* PQEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1024291AF2771400667D82 /* PQEventTableViewController.m */; };
+		6F10242D1AF2779C00667D82 /* PQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F10242C1AF2779C00667D82 /* PQLoginViewController.m */; };
+		6F4549611B01167B00F7ED91 /* PQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4549601B01167B00F7ED91 /* PQUser.m */; };
+		6F4549641B01272000F7ED91 /* PQPeopleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4549631B01272000F7ED91 /* PQPeopleTableViewCell.m */; };
+		6F52FA211AF3BBB20068D740 /* PQEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52FA201AF3BBB20068D740 /* PQEvent.m */; };
+		6F52FA291AF3C3A00068D740 /* PQEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52FA281AF3C3A00068D740 /* PQEventTableViewCell.m */; };
+		6FC2B6A21B04DEFF0084475C /* PQPeopleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2B6A11B04DEFF0084475C /* PQPeopleDetailViewController.m */; };
+		6FC3B8BC1AF935AE0022EB2F /* PQPeopleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC3B8BB1AF935AE0022EB2F /* PQPeopleListViewController.m */; };
 		6FC4F0C01AF0000300B6D227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4F0BF1AF0000300B6D227 /* main.m */; };
 		6FC4F0C31AF0000300B6D227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4F0C21AF0000300B6D227 /* AppDelegate.m */; };
-		6FC4F0C61AF0000300B6D227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4F0C51AF0000300B6D227 /* ViewController.m */; };
 		6FC4F0C91AF0000300B6D227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4F0C71AF0000300B6D227 /* Main.storyboard */; };
 		6FC4F0CB1AF0000300B6D227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4F0CA1AF0000300B6D227 /* Images.xcassets */; };
 		6FC4F0CE1AF0000300B6D227 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4F0CC1AF0000300B6D227 /* LaunchScreen.xib */; };
 		6FC4F0DA1AF0000300B6D227 /* MSPYEPMobileClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4F0D91AF0000300B6D227 /* MSPYEPMobileClientTests.m */; };
+		6FCDE55D1B03C8E000747406 /* PQSeedingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDE55C1B03C8E000747406 /* PQSeedingViewController.m */; };
+		6FD09AC01AF555D9000CAAF1 /* PQEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD09ABF1AF555D9000CAAF1 /* PQEventDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +39,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08E73850913C0AA5B86603B7 /* Pods-MSPYEPMobileClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPYEPMobileClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSPYEPMobileClientTests/Pods-MSPYEPMobileClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A2DBA5621CB957F07F9857B /* Pods-MSPYEPMobileClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPYEPMobileClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSPYEPMobileClient/Pods-MSPYEPMobileClient.release.xcconfig"; sourceTree = "<group>"; };
+		6F1024251AF2760200667D82 /* PQEventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQEventListViewController.h; path = Controllers/PQEventListViewController.h; sourceTree = "<group>"; };
+		6F1024261AF2760200667D82 /* PQEventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQEventListViewController.m; path = Controllers/PQEventListViewController.m; sourceTree = "<group>"; };
+		6F1024281AF2771400667D82 /* PQEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQEventTableViewController.h; path = Controllers/PQEventTableViewController.h; sourceTree = "<group>"; };
+		6F1024291AF2771400667D82 /* PQEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQEventTableViewController.m; path = Controllers/PQEventTableViewController.m; sourceTree = "<group>"; };
+		6F10242B1AF2779C00667D82 /* PQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQLoginViewController.h; path = Controllers/PQLoginViewController.h; sourceTree = "<group>"; };
+		6F10242C1AF2779C00667D82 /* PQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQLoginViewController.m; path = Controllers/PQLoginViewController.m; sourceTree = "<group>"; };
+		6F1024311AF278D600667D82 /* PQEventJoiningType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PQEventJoiningType.h; path = Helpers/PQEventJoiningType.h; sourceTree = "<group>"; };
+		6F45495F1B01167B00F7ED91 /* PQUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQUser.h; path = Models/PQUser.h; sourceTree = "<group>"; };
+		6F4549601B01167B00F7ED91 /* PQUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQUser.m; path = Models/PQUser.m; sourceTree = "<group>"; };
+		6F4549621B01272000F7ED91 /* PQPeopleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQPeopleTableViewCell.h; path = Controllers/Cells/PQPeopleTableViewCell.h; sourceTree = "<group>"; };
+		6F4549631B01272000F7ED91 /* PQPeopleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQPeopleTableViewCell.m; path = Controllers/Cells/PQPeopleTableViewCell.m; sourceTree = "<group>"; };
+		6F52FA1F1AF3BBB20068D740 /* PQEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQEvent.h; path = Models/PQEvent.h; sourceTree = "<group>"; };
+		6F52FA201AF3BBB20068D740 /* PQEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQEvent.m; path = Models/PQEvent.m; sourceTree = "<group>"; };
+		6F52FA221AF3BD480068D740 /* PQConstantKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PQConstantKey.h; path = Helpers/PQConstantKey.h; sourceTree = "<group>"; };
+		6F52FA271AF3C3A00068D740 /* PQEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQEventTableViewCell.h; path = Controllers/Cells/PQEventTableViewCell.h; sourceTree = "<group>"; };
+		6F52FA281AF3C3A00068D740 /* PQEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQEventTableViewCell.m; path = Controllers/Cells/PQEventTableViewCell.m; sourceTree = "<group>"; };
+		6FC2B6A01B04DEFF0084475C /* PQPeopleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQPeopleDetailViewController.h; path = Controllers/PQPeopleDetailViewController.h; sourceTree = "<group>"; };
+		6FC2B6A11B04DEFF0084475C /* PQPeopleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQPeopleDetailViewController.m; path = Controllers/PQPeopleDetailViewController.m; sourceTree = "<group>"; };
+		6FC3B8BA1AF935AE0022EB2F /* PQPeopleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQPeopleListViewController.h; path = Controllers/PQPeopleListViewController.h; sourceTree = "<group>"; };
+		6FC3B8BB1AF935AE0022EB2F /* PQPeopleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQPeopleListViewController.m; path = Controllers/PQPeopleListViewController.m; sourceTree = "<group>"; };
 		6FC4F0BA1AF0000300B6D227 /* MSPYEPMobileClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSPYEPMobileClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC4F0BE1AF0000300B6D227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC4F0BF1AF0000300B6D227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FC4F0C11AF0000300B6D227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FC4F0C21AF0000300B6D227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6FC4F0C41AF0000300B6D227 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6FC4F0C51AF0000300B6D227 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6FC4F0C81AF0000300B6D227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FC4F0CA1AF0000300B6D227 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FC4F0CD1AF0000300B6D227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6FC4F0D31AF0000300B6D227 /* MSPYEPMobileClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSPYEPMobileClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC4F0D81AF0000300B6D227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC4F0D91AF0000300B6D227 /* MSPYEPMobileClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPYEPMobileClientTests.m; sourceTree = "<group>"; };
+		6FCDE55B1B03C8E000747406 /* PQSeedingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQSeedingViewController.h; path = Controllers/PQSeedingViewController.h; sourceTree = "<group>"; };
+		6FCDE55C1B03C8E000747406 /* PQSeedingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQSeedingViewController.m; path = Controllers/PQSeedingViewController.m; sourceTree = "<group>"; };
+		6FD09ABE1AF555D9000CAAF1 /* PQEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQEventDetailViewController.h; path = Controllers/PQEventDetailViewController.h; sourceTree = "<group>"; };
+		6FD09ABF1AF555D9000CAAF1 /* PQEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQEventDetailViewController.m; path = Controllers/PQEventDetailViewController.m; sourceTree = "<group>"; };
+		C715F3BB8F64596EA24D2785 /* libPods-MSPYEPMobileClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSPYEPMobileClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC67949D0D4EFF4199D68BDC /* Pods-MSPYEPMobileClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPYEPMobileClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSPYEPMobileClient/Pods-MSPYEPMobileClient.debug.xcconfig"; sourceTree = "<group>"; };
+		D4B91C7ABB132B7AE2B2624C /* libPods-MSPYEPMobileClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSPYEPMobileClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D949CD34A1E3E7180A33B839 /* Pods-MSPYEPMobileClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPYEPMobileClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSPYEPMobileClientTests/Pods-MSPYEPMobileClientTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A84891F605F56EEC33B483D /* libPods-MSPYEPMobileClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +95,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D56EF98D8697817041F3641 /* libPods-MSPYEPMobileClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13F192DB41201242FC4D0647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC67949D0D4EFF4199D68BDC /* Pods-MSPYEPMobileClient.debug.xcconfig */,
+				4A2DBA5621CB957F07F9857B /* Pods-MSPYEPMobileClient.release.xcconfig */,
+				08E73850913C0AA5B86603B7 /* Pods-MSPYEPMobileClientTests.debug.xcconfig */,
+				D949CD34A1E3E7180A33B839 /* Pods-MSPYEPMobileClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F1024241AF275CD00667D82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FCDE55B1B03C8E000747406 /* PQSeedingViewController.h */,
+				6FCDE55C1B03C8E000747406 /* PQSeedingViewController.m */,
+				6F10242B1AF2779C00667D82 /* PQLoginViewController.h */,
+				6F10242C1AF2779C00667D82 /* PQLoginViewController.m */,
+				6F52FA231AF3C1CC0068D740 /* Cells */,
+				6F1024251AF2760200667D82 /* PQEventListViewController.h */,
+				6F1024261AF2760200667D82 /* PQEventListViewController.m */,
+				6F1024281AF2771400667D82 /* PQEventTableViewController.h */,
+				6F1024291AF2771400667D82 /* PQEventTableViewController.m */,
+				6FD09ABE1AF555D9000CAAF1 /* PQEventDetailViewController.h */,
+				6FD09ABF1AF555D9000CAAF1 /* PQEventDetailViewController.m */,
+				6FC3B8BA1AF935AE0022EB2F /* PQPeopleListViewController.h */,
+				6FC3B8BB1AF935AE0022EB2F /* PQPeopleListViewController.m */,
+				6FC2B6A01B04DEFF0084475C /* PQPeopleDetailViewController.h */,
+				6FC2B6A11B04DEFF0084475C /* PQPeopleDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6F10242E1AF2785F00667D82 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6F1024311AF278D600667D82 /* PQEventJoiningType.h */,
+				6F52FA221AF3BD480068D740 /* PQConstantKey.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6F52FA1E1AF3BB750068D740 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F52FA1F1AF3BBB20068D740 /* PQEvent.h */,
+				6F52FA201AF3BBB20068D740 /* PQEvent.m */,
+				6F45495F1B01167B00F7ED91 /* PQUser.h */,
+				6F4549601B01167B00F7ED91 /* PQUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6F52FA231AF3C1CC0068D740 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6F52FA271AF3C3A00068D740 /* PQEventTableViewCell.h */,
+				6F52FA281AF3C3A00068D740 /* PQEventTableViewCell.m */,
+				6F4549621B01272000F7ED91 /* PQPeopleTableViewCell.h */,
+				6F4549631B01272000F7ED91 /* PQPeopleTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		6F8ED99F1AF71FB700AD3412 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FC4F0C71AF0000300B6D227 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		6FC4F0B11AF0000300B6D227 = {
 			isa = PBXGroup;
 			children = (
+				6FC4F0E31AF0002300B6D227 /* Frameworks */,
 				6FC4F0BC1AF0000300B6D227 /* MSPYEPMobileClient */,
 				6FC4F0D61AF0000300B6D227 /* MSPYEPMobileClientTests */,
 				6FC4F0BB1AF0000300B6D227 /* Products */,
+				13F192DB41201242FC4D0647 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +197,12 @@
 		6FC4F0BC1AF0000300B6D227 /* MSPYEPMobileClient */ = {
 			isa = PBXGroup;
 			children = (
+				6F10242E1AF2785F00667D82 /* Helpers */,
+				6F52FA1E1AF3BB750068D740 /* Models */,
+				6F8ED99F1AF71FB700AD3412 /* Views */,
+				6F1024241AF275CD00667D82 /* Controllers */,
 				6FC4F0C11AF0000300B6D227 /* AppDelegate.h */,
 				6FC4F0C21AF0000300B6D227 /* AppDelegate.m */,
-				6FC4F0C41AF0000300B6D227 /* ViewController.h */,
-				6FC4F0C51AF0000300B6D227 /* ViewController.m */,
-				6FC4F0C71AF0000300B6D227 /* Main.storyboard */,
 				6FC4F0CA1AF0000300B6D227 /* Images.xcassets */,
 				6FC4F0CC1AF0000300B6D227 /* LaunchScreen.xib */,
 				6FC4F0BD1AF0000300B6D227 /* Supporting Files */,
@@ -119,6 +236,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6FC4F0E31AF0002300B6D227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C715F3BB8F64596EA24D2785 /* libPods-MSPYEPMobileClient.a */,
+				D4B91C7ABB132B7AE2B2624C /* libPods-MSPYEPMobileClientTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FC4F0DD1AF0000300B6D227 /* Build configuration list for PBXNativeTarget "MSPYEPMobileClient" */;
 			buildPhases = (
+				1AC5F2631A5FCED26BF95156 /* Check Pods Manifest.lock */,
 				6FC4F0B61AF0000300B6D227 /* Sources */,
 				6FC4F0B71AF0000300B6D227 /* Frameworks */,
 				6FC4F0B81AF0000300B6D227 /* Resources */,
+				19E7DF5DBADF3BF14B27929F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FC4F0E01AF0000300B6D227 /* Build configuration list for PBXNativeTarget "MSPYEPMobileClientTests" */;
 			buildPhases = (
+				0A0C6BE1E1F603A371D27817 /* Check Pods Manifest.lock */,
 				6FC4F0CF1AF0000300B6D227 /* Sources */,
 				6FC4F0D01AF0000300B6D227 /* Frameworks */,
 				6FC4F0D11AF0000300B6D227 /* Resources */,
+				562BB55FE26A49A1F63AC665 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +298,7 @@
 				TargetAttributes = {
 					6FC4F0B91AF0000300B6D227 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4632F27GCZ;
 					};
 					6FC4F0D21AF0000300B6D227 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -214,14 +345,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A0C6BE1E1F603A371D27817 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19E7DF5DBADF3BF14B27929F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSPYEPMobileClient/Pods-MSPYEPMobileClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC5F2631A5FCED26BF95156 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		562BB55FE26A49A1F63AC665 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSPYEPMobileClientTests/Pods-MSPYEPMobileClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FC4F0B61AF0000300B6D227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FC4F0C61AF0000300B6D227 /* ViewController.m in Sources */,
+				6FC2B6A21B04DEFF0084475C /* PQPeopleDetailViewController.m in Sources */,
+				6F1024271AF2760200667D82 /* PQEventListViewController.m in Sources */,
+				6F52FA291AF3C3A00068D740 /* PQEventTableViewCell.m in Sources */,
+				6F52FA211AF3BBB20068D740 /* PQEvent.m in Sources */,
+				6FCDE55D1B03C8E000747406 /* PQSeedingViewController.m in Sources */,
+				6F10242A1AF2771400667D82 /* PQEventTableViewController.m in Sources */,
+				6F10242D1AF2779C00667D82 /* PQLoginViewController.m in Sources */,
+				6FC3B8BC1AF935AE0022EB2F /* PQPeopleListViewController.m in Sources */,
+				6FD09AC01AF555D9000CAAF1 /* PQEventDetailViewController.m in Sources */,
 				6FC4F0C31AF0000300B6D227 /* AppDelegate.m in Sources */,
 				6FC4F0C01AF0000300B6D227 /* main.m in Sources */,
+				6F4549641B01272000F7ED91 /* PQPeopleTableViewCell.m in Sources */,
+				6F4549611B01167B00F7ED91 /* PQUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -345,26 +549,35 @@
 		};
 		6FC4F0DE1AF0000300B6D227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC67949D0D4EFF4199D68BDC /* Pods-MSPYEPMobileClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MSPYEPMobileClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		6FC4F0DF1AF0000300B6D227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2DBA5621CB957F07F9857B /* Pods-MSPYEPMobileClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MSPYEPMobileClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		6FC4F0E11AF0000300B6D227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E73850913C0AA5B86603B7 /* Pods-MSPYEPMobileClientTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +597,7 @@
 		};
 		6FC4F0E21AF0000300B6D227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D949CD34A1E3E7180A33B839 /* Pods-MSPYEPMobileClientTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,6 +630,7 @@
 				6FC4F0DF1AF0000300B6D227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FC4F0E01AF0000300B6D227 /* Build configuration list for PBXNativeTarget "MSPYEPMobileClientTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +639,7 @@
 				6FC4F0E21AF0000300B6D227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
